@@ -2,7 +2,7 @@ import sys
 import geoip
 import cx_Oracle
 
-orp_db = 'user/group@host:port_num/service'
+orp_db = 'usr/pwd@host.com.au:1521/service'
 
 sql_template = """
 select trunc(occurred_at), ip_address, count(*)

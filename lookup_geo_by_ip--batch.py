@@ -4,8 +4,8 @@ command_template = 'lookup_geo_by_ip.py %s %s'
 partition_month = 'pn201208'
 # output_dir = './output/classified/'
 output_dir = './output/no_rules/'
-start_day = 29
-end_day = 31
+start_day = 1
+end_day = 24
 
 print 'batch: ', command_template, partition_month, 'start_day=', start_day, 'end_day=', end_day
 
